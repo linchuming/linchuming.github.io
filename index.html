@@ -7,30 +7,30 @@
   <meta name="author" content="Chuming Lin">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" type="image/png" href="images/seal_icon.png">
+  <!-- <link rel="icon" type="image/png" href="images/seal_icon.png"> -->
 </head>
 
 <body>
-  <table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <table class="main-container" style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table class="hero-section" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr style="padding:0px">
             <td style="padding:2.5%;width:63%;vertical-align:middle">
               <p style="text-align:center">
                 <name><strong><font size="4px">Chuming Lin (林楚铭)</font></strong></name>
               </p>
-              <p>Chuming is a Senior Researcher at Tencent Youtu Lab, Shanghai.
+              <p>Chuming is a Senior Researcher at Tencent Youtu Lab, Shanghai. He got his Master degree from School of Computer Science, Fudan University in 2020, supervised by Prof. <a href="https://dml.fudan.edu.cn/87/22/c35294a427810/page.htm">Bo Yan</a>. Previously, he received the Bachelor degree from Fudan University in 2017. His research interests include computer vision and deep learning, particularly focusing on video generation, digital human and related tasks.
               </p>
-              He got his Master degree from School of Computer Science, Fudan University in 2020, supervised by Prof. 
-              <a href="https://dml.fudan.edu.cn/87/22/c35294a427810/page.htm">Bo Yan</a>. Previously, he received the Bachelor degree from Fudan University in 2017.
               <p>
-              <p>
-                His research interests include computer vision and deep learning, particularly focusing on AIGC, temporal action localization and image/video enhancement tasks.
+                林楚铭，腾讯优图实验室高级研究员，2020年获得复旦大学计算机应用技术硕士学位，导师为<a href="https://dml.fudan.edu.cn/87/22/c35294a427810/page.htm">颜波</a>教授，2017年获得复旦大学计算机科学学士学位。研究方向为计算机视觉与深度学习，主要聚焦于视频生成、数字人等任务。
               </p>
 
-              <p style="text-align:center">
+              <p class="contact-links" style="text-align:center">
                 <a href="mailto:linchuming22@gmail.com">Email</a> &nbsp/&nbsp
                 <a href="https://scholar.google.com/citations?user=6pS2epEAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
                 <a href="https://github.com/linchuming/">Github</a>
@@ -43,8 +43,8 @@
           </tr>
         </tbody></table>
         
-<p style="text-align:left"><strong><font size="4px">Recent news</font></strong></p> 
-		<ul>
+<p class="section-title" style="text-align:left"><strong><font size="4px">Recent news</font></strong></p> 
+		<ul class="news-list">
       <li><p style="text-align:left">06/2025 – 腾讯云智能数智人移动端实时渲染版本上线：<a href="https://cloud.tencent.com/product/ivh"; style="color: #EE7F2D;"> <b>数智人产品入口</b></a> </p></li>
       <li><p style="text-align:left">05/2025 – Our Emotional Portrait Animation (带情绪的人像音频驱动) DICE-Talk (ACMMM'25) is Open Sourced: <a href="https://github.com/toto222/DICE-Talk"; style="color: #EE7F2D;"> <b>DICE-Talk Github</b></a></p></li>
       <li><p style="text-align:left">01/2025 – Our Portrait Animation (人像音频驱动) Sonic (CVPR'25) is Open Sourced: <a href="https://github.com/jixiaozhong/Sonic"; style="color: #EE7F2D;"> <b>Sonic Github</b></a></p></li>
@@ -66,30 +66,29 @@
 	    </ul>
 	 
 	<br>
-	<p style="text-align:justify"><strong><font size="4px">Publications</font></strong> (* equal contribution, <sup>#</sup> first student author)
+	<p class="section-title" style="text-align:justify"><strong><font size="4px">Publications</font></strong> (* equal contribution, <sup>#</sup> first student author)</p>
 		<table id="pubList" border="0" cellpadding="0" width="100%" style="border-spacing: 10 18px; line-height:16pt; border: 0px;">
 
-      <td style="padding:20px;width:25%;vertical-align:middle">
+      <tr><td style="padding:20px;width:25%;vertical-align:middle">
         <img src="./figures/DICE-Talk.png" style="height: 120px; width: 250px; margin-top: 10px">
-        <td style="padding:10px;width:75%;vertical-align:middle">
+        </td><td style="padding:10px;width:75%;vertical-align:middle">
           <a href="https://arxiv.org/pdf/2504.18087">
           <papertitle><b>Disentangle Identity, Cooperate Emotion: Correlation-Aware
             Emotional Talking Portrait Generation</b></papertitle>
           </a>
           <br>
-          W. Tan*, <b>C. Lin*</b>, C. Xu, F. Xu, X. Hu, X. Ji, J. Zhu, C. Wang, Y. Fu.             
+          W. Tan*, <b>C. Lin*</b>, C. Xu*, F. Xu, X. Hu, X. Ji, J. Zhu, C. Wang, Y. Fu.             
           <br>
           <em>ACM International Conference on Multimedia (<b>ACM MM</b>)</em>, 2025 
           <br>
           <a href="https://arxiv.org/pdf/2504.18087"; style="color: #EE7F2D;">arXiv</a>
       /
       <a href="https://github.com/toto222/DICE-Talk"; style="color: #EE7F2D;">Code (Official)</a>
-          </p>
-        </td><tr>		
+        </td></tr>
 
-      <td style="padding:20px;width:25%;vertical-align:middle">
+      <tr><td style="padding:20px;width:25%;vertical-align:middle">
         <img src="./figures/Sonic.png" style="height: 120px; width: 250px; margin-top: 10px">
-        <td style="padding:10px;width:75%;vertical-align:middle">
+        </td><td style="padding:10px;width:75%;vertical-align:middle">
           <a href="https://arxiv.org/pdf/2302.03406">
           <papertitle><b>Sonic: Shifting Focus to Global Audio Perception in Portrait Animation</b></papertitle>
           </a>
@@ -101,12 +100,11 @@
           <a href="https://arxiv.org/pdf/2411.16331"; style="color: #EE7F2D;">arXiv</a>
       /
       <a href="https://github.com/jixiaozhong/Sonic"; style="color: #EE7F2D;">Code (Official)</a>
-          </p>
-        </td><tr>			
+        </td></tr>
 
-      <td style="padding:20px;width:25%;vertical-align:middle">
+      <tr><td style="padding:20px;width:25%;vertical-align:middle">
         <img src="./figures/SVP.png" style="height: 120px; width: 250px; margin-top: 10px">
-        <td style="padding:10px;width:75%;vertical-align:middle">
+        </td><td style="padding:10px;width:75%;vertical-align:middle">
           <a href="https://arxiv.org/pdf/2409.03270">
           <papertitle><b>SVP: Style-Enhanced Vivid Portrait Talking Head Diffusion Model</b></papertitle>
           </a>
@@ -116,11 +114,11 @@
           2024 
           <br>
           <a href="https://arxiv.org/pdf/2409.03270"; style="color: #EE7F2D;">arXiv</a>
-        </td><tr>		
+        </td></tr>
 
-          <td style="padding:20px;width:25%;vertical-align:middle">
+      <tr><td style="padding:20px;width:25%;vertical-align:middle">
             <img src="./figures/RealTalk.png" style="height: 120px; width: 250px; margin-top: 10px">
-            <td style="padding:10px;width:75%;vertical-align:middle">
+            </td><td style="padding:10px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/pdf/2406.18284">
               <papertitle><b>RealTalk: Real-time and Realistic Audio-driven Face Generation with 3D Facial Prior-guided Identity Alignment Network</b></papertitle>
               </a>
@@ -130,11 +128,11 @@
               2024 
               <br>
               <a href="https://arxiv.org/pdf/2406.18284"; style="color: #EE7F2D;">arXiv</a>
-            </td><tr>		
+            </td></tr>
 
-          <td style="padding:20px;width:25%;vertical-align:middle">
+      <tr><td style="padding:20px;width:25%;vertical-align:middle">
             <img src="./figures/CRI.jpg" style="height: 120px; width: 250px; margin-top: 10px">
-            <td style="padding:10px;width:75%;vertical-align:middle">
+            </td><td style="padding:10px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/pdf/2302.03406">
               <papertitle><b>High-Resolution GAN Inversion for Degraded Images in Large Diverse Datasets</b></papertitle>
               </a>
@@ -146,12 +144,11 @@
               <a href="https://arxiv.org/pdf/2302.03406"; style="color: #EE7F2D;">arXiv</a>
           /
           <a href="https://github.com/Booooooooooo/CRI"; style="color: #EE7F2D;">Code (Official)</a>
-              </p>
-            </td><tr>				
+            </td></tr>
 
-          <td style="padding:20px;width:25%;vertical-align:middle">
+      <tr><td style="padding:20px;width:25%;vertical-align:middle">
             <img src="./figures/CDSR.png" style="height: 120px; width: 250px; margin-top: 10px">
-            <td style="padding:10px;width:75%;vertical-align:middle">
+            </td><td style="padding:10px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2208.13436">
               <papertitle><b>Joint Learning Content and Degradation Aware Feature for Blind Super-Resolution</b></papertitle>
               </a>
@@ -165,12 +162,11 @@
           <a href="https://dl.acm.org/doi/pdf/10.1145/3503161.3547907"; style="color: #EE7F2D;">Paper</a>
           /
           <a href="https://github.com/ZhouYiiFeng/CDSR"; style="color: #EE7F2D;">Code (Official)</a>
-              </p>
-            </td><tr>	
+            </td></tr>
 
-            <td style="padding:20px;width:25%;vertical-align:middle">
+      <tr><td style="padding:20px;width:25%;vertical-align:middle">
                 <img src="./figures/AFSD.png" style="height: 120px; width: 250px; margin-top: 10px">
-                <td style="padding:10px;width:75%;vertical-align:middle">
+                </td><td style="padding:10px;width:75%;vertical-align:middle">
                   <a href="https://arxiv.org/abs/2103.13137">
                   <papertitle><b>Learning Salient Boundary Feature for Anchor-free Temporal Action Localization</b></papertitle>
                   </a>
@@ -184,10 +180,9 @@
               <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Lin_Learning_Salient_Boundary_Feature_for_Anchor-free_Temporal_Action_Localization_CVPR_2021_paper.pdf"; style="color: #EE7F2D;">Paper</a>
               /
               <a href="https://github.com/TencentYoutuResearch/ActionDetection-AFSD"; style="color: #EE7F2D;">Code (Official)</a>
-                  </p>
-                </td><tr>	
+                </td></tr>
 
-            <td style="padding:20px;width:25%;vertical-align:middle">
+      <tr><td style="padding:20px;width:25%;vertical-align:middle">
                 <img src="./figures/FGME.png" style="height: 120px; width: 250px; margin-top: 10px;"></td>
                 <td style="padding:10px;width:75%;vertical-align:middle">
                 <a href="https://ieeexplore.ieee.org/abstract/document/9234068/"><papertitle><b>Fine-Grained Motion Estimation for Video Frame Interpolation</b></papertitle></a><br>
@@ -196,11 +191,9 @@
                 <em>IEEE Transactions on Broadcasting (<b>IEEE Trans. Broadcast.</b>)</em>, 2020
                 <br>
                 <a href="https://ieeexplore.ieee.org/abstract/document/9234068/"; style="color: #EE7F2D;">Paper</a>
-                </p>
                 </td></tr>
 
-
-            <td style="padding:20px;width:25%;vertical-align:middle">
+      <tr><td style="padding:20px;width:25%;vertical-align:middle">
                 <img src="./figures/DBG.png" style="height: 120px; width: 250px; margin-top: 10px"></td>
                 <td style="padding:10px;width:75%;vertical-align:middle">
                 <a href="https://arxiv.org/abs/1911.04127"><papertitle><b>Fast Learning of Temporal Action Proposal via Dense Boundary Generator</b></papertitle></a><br>
@@ -213,10 +206,9 @@
                 <a href="https://github.com/Tencent/ActionDetection-DBG"; style="color: #EE7F2D;">Code (Official)</a>
                 <br>
                 <p><font color="red">No. 1 performace on<a href="http://activity-net.org/challenges/2019/evaluation.html"; style="color: #EE7F2D;"> <b> ActivityNet Challenge on Temporal Action Proposals</b></a></font></p> 
-                </p>
                 </td></tr>
 
-                <td style="padding:20px;width:25%;vertical-align:middle">
+      <tr><td style="padding:20px;width:25%;vertical-align:middle">
                     <img src="./figures/FFCVSR.png" style="height: 120px; width: 200px; margin-top: 10px; margin-left: 30px"></td>
                     <td style="padding:10px;width:75%;vertical-align:middle">
                     <a href="https://arxiv.org/abs/1909.13057"><papertitle><b>Frame and Feature-Context Video Super-Resolution</b></papertitle></a><br>
@@ -227,10 +219,9 @@
                     <a href="https://arxiv.org/abs/1909.13057"; style="color: #EE7F2D;">arXiv</a>
                     /
                     <a href="https://github.com/linchuming/FFCVSR"; style="color: #EE7F2D;">Code (Official)</a>
-                    </p>
                     </td></tr>
                 
-                <td style="padding:20px;width:25%;vertical-align:middle">
+      <tr><td style="padding:20px;width:25%;vertical-align:middle">
                     <img src="./figures/CycleIR.png" style="height: 120px; width: 250px; margin-top: 10px;"></td>
                     <td style="padding:10px;width:75%;vertical-align:middle">
                     <a href="https://arxiv.org/abs/1905.03556"><papertitle><b>Cycle-IR: Deep Cyclic Image Retargeting</b></papertitle></a><br>
@@ -241,10 +232,9 @@
                     <a href="https://arxiv.org/abs/1905.03556"; style="color: #EE7F2D;">arXiv</a>
                     /
                     <a href="https://github.com/mintanwei/Cycle-IR"; style="color: #EE7F2D;">Code (Official)</a>
-                    </p>
                     </td></tr>
 
-                <td style="padding:20px;width:25%;vertical-align:middle">
+      <tr><td style="padding:20px;width:25%;vertical-align:middle">
                     <img src="./figures/FCSN.png" style="height: 120px; width: 250px; margin-top: 10px;"></td>
                     <td style="padding:10px;width:75%;vertical-align:middle">
                     <a href="https://ieeexplore.ieee.org/abstract/document/8451816"><papertitle><b>Foreground Detection in Surveillance Video with Fully Convolutional Semantic Network</b></papertitle></a><br>
@@ -253,15 +243,14 @@
                     <em>IEEE International Conference on Image Processing (<b>ICIP</b>)</em>, 2018
                     <br>
                     <a href="https://ieeexplore.ieee.org/abstract/document/8451816"; style="color: #EE7F2D;">Paper</a>
-                    </p>
                     </td></tr>
 
 			
-        </table></p>
+        </table>
  
 		
-	<p style="text-align:left"><strong><font size="4px">Awards</font></strong></p>
-		<ul>
+	<p class="section-title" style="text-align:left"><strong><font size="4px">Awards</font></strong></p>
+		<ul class="awards-list">
       <li><p style="text-align:left">2024H1 Tencent Outstanding Contributor</p></li>
       <li><p style="text-align:left">2023H1 Tencent Outstanding Contributor</p></li>
       <li><p style="text-align:left">2022H1 Tencent Outstanding Contributor</p></li>
@@ -274,19 +263,11 @@
 		</ul><br>
 
 
-    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=dzrmtbX9b1i25X8BotKZuBwiqyozTKQUPPVGJa3kUww"></script>
+    <div class="footer-map">
+    <script type="text/javascript" id="clustrmaps" src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=n&d=dzrmtbX9b1i25X8BotKZuBwiqyozTKQUPPVGJa3kUww"></script>
+    </div>
 
-    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        <tr>
-          <td style="padding:0px">
-            <br>
-            <p style="text-align:center;">
-            For the style of my personal website, please refer to the wonderful page from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.
-            <br>
-            </p>
-          </td>
-        </tr>
-      </tbody></table>
+
 </body>          
 
 </html>
